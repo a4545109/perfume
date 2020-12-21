@@ -1,0 +1,21 @@
+.products{
+  padding-top: 80px;
+  @include pad(){
+    padding-top: 40px;
+  }
+}
+.productItem{
+  margin-bottom: 58px;
+  @include pad(){
+    margin-bottom: 30px;
+  }
+}
+.productsImg{
+  height: 255px;
+}
+@include pad(){
+  .product .productsTitle{
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

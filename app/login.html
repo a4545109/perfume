@@ -1,0 +1,49 @@
+---
+title: 登入頁面
+layout: ./app/layout.ejs
+engine: ejs
+current: login
+---
+
+<!-- menu -->
+<div class="bg-primary d-none d-lg-block">
+  <div class="container">
+    <ul class="menu d-flex fs-5 lh-6">
+      <li><a class="text-white mr-7" href="productDetail.html">CHANEL</a></li>
+      <li><a class="text-white mr-7" href="#">Jo Malone</a></li>
+      <li><a class="text-white mr-7" href="#">Curology</a></li>
+      <li><a class="text-white mr-7" href="#">Dior</a></li>
+      <li><a class="text-white mr-7" href="#">Chloe</a></li>
+      <li><a class="text-white" href="#">ZARA</a></li>
+    </ul>
+  </div>
+</div>
+<div class="login">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8">
+        <img class="mb-7 mb-lg-0" src="./assets/images/login1.jpg" alt="">
+      </div>
+      <div class="col-12 col-lg-4">
+        <form action="#">
+          <h2 class="font-weight-bold fs-8 lh-12 mb-3">Log in</h2>
+          <div class="form-group">
+            <label for="Email">帳號</label><br>
+            <input class="form-control w-100" type="Email" id="Email" placeholder="email@example.com">
+          </div>
+          <div class="form-group mb-9">
+            <label for="password">密碼</label><br>
+            <input class="form-control w-100" type="password" id="password" placeholder="Password">
+          </div>
+          <div class="d-flex justify-content-between">
+            <a href="member.html"><span>忘記密碼</span></a>
+            <div>
+              <button type="button" class="loginBtn btn btn-outline-primary"><a href="#">註冊</a></button>
+              <button type="submit" class="loginBtn btn btn-primary"><a href="#" class="text-white">登入</a></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,51 @@
+.banner{
+  background-image: url("../../assets/images/index1.jpg");
+  height: 870px;
+  @include pad(){
+    height: 480px;
+    .row .bannerText{
+      line-height: 30px;
+    }
+  }
+}
+.shopNow{
+  width: 78%;
+  padding: 8px 0;
+  @include pad(){
+    width: 100%;
+  }
+}
+.introductionContent{
+  width: 63%;
+  @include pad(){
+    width: 100%;
+  }
+}
+.introductionText{
+  line-height: 30px;
+}
+.introductionImg{
+  height: 555px;
+}
+.infoImg{
+  height: 1080px;
+}
+.infoContent{
+  width: 63%;
+  @include pad(){
+    width: 100%;
+  }
+}
+.infobtn{
+  width: 63%;
+  padding: 18px;
+  @include pad(){
+    width: 100%;
+  }
+}
+.index-product{
+  background-color: #E0E0E0;
+}
+.indexProductImg{
+  height: 540px;
+}
