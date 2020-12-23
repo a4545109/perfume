@@ -10493,13 +10493,7 @@ ul {
   margin: 0;
   padding: 0; }
 
-hr {
-  margin: 0; }
-
-p {
-  margin: 0; }
-
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, label, p, hr {
   margin: 0; }
 
 a:hover {
@@ -10508,9 +10502,6 @@ a:hover {
 .form-row > .col,
 .form-row > [class*="col-"] {
   padding: 0; }
-
-.form-group {
-  margin-bottom: 20px; }
 
 .bg-cover {
   background-position: 30% center;
@@ -10589,9 +10580,6 @@ a:hover {
   position: absolute;
   padding: 20px 24px 19px 28px; }
 
-.menu {
-  padding: 14px 0; }
-
 body {
   font-family: "Roboto", "Noto Sans TC", sans-serif; }
 
@@ -10607,19 +10595,18 @@ body {
   overflow: hidden;
   white-space: nowrap; }
 
-.nav-link span {
-  margin-right: 3px; }
-
 .navbar-collapse {
   -webkit-box-flex: 0;
       -ms-flex-positive: 0;
           flex-grow: 0; }
 
 .mobileCart {
-  margin-right: 19px; }
+  position: relative; }
 
-.footer {
-  padding: 20px 0px 22px 0px; }
+.cartNum {
+  position: absolute;
+  top: -8px;
+  right: 8px; }
 
 .banner {
   background-image: url("../../assets/images/index1.jpg");
@@ -10629,13 +10616,11 @@ body {
       height: 480px; }
       .banner .row .bannerText {
         line-height: 30px; } }
-
-.shopNow {
-  width: 78%;
-  padding: 8px 0; }
-  @media screen and (max-width: 992px) {
-    .shopNow {
-      width: 100%; } }
+  .banner .shopNow {
+    width: 78%; }
+    @media screen and (max-width: 992px) {
+      .banner .shopNow {
+        width: 100%; } }
 
 .introductionContent {
   width: 63%; }
@@ -10659,23 +10644,16 @@ body {
       width: 100%; } }
 
 .infobtn {
-  width: 63%;
-  padding: 18px; }
+  width: 63%; }
   @media screen and (max-width: 992px) {
     .infobtn {
       width: 100%; } }
 
-.index-product {
+.indexProduct {
   background-color: #E0E0E0; }
 
 .indexProductImg {
   height: 540px; }
-
-.products {
-  padding-top: 80px; }
-  @media screen and (max-width: 992px) {
-    .products {
-      padding-top: 40px; } }
 
 .productItem {
   margin-bottom: 58px; }
@@ -10691,11 +10669,8 @@ body {
     font-size: 20px;
     line-height: 30px; } }
 
-.detailContent {
-  padding: 80px 0 60px 0; }
-  @media screen and (max-width: 992px) {
-    .detailContent {
-      padding: 40px 0 40px 0; } }
+.pagination a:hover {
+  border-bottom: 2px solid #AC8A46; }
 
 .detailText {
   line-height: 30px; }
@@ -10719,12 +10694,58 @@ body {
     .detailCenterImg {
       margin-bottom: 16px; } }
 
+.memberTitle {
+  line-height: 30px; }
+
+hr {
+  background-color: #000; }
+
+.memberMenu a:hover {
+  border-bottom: 2px solid #916000; }
+
+@media screen and (max-width: 992px) {
+  .memberMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 17px; }
+    .memberMenu li:nth-child(2) {
+      margin: 0 43px; } }
+
+.modifyContent label {
+  width: 95px; }
+
+.passwordText {
+  width: 95px; }
+
+.memberCode,
+.modifyTitle {
+  line-height: 22px; }
+
 .memberArea {
-  min-width: 94px; }
+  min-width: 95px; }
+
+.form-row {
+  margin: 0; }
+
+.bonus {
+  font-size: 14px;
+  line-height: 21px; }
+
+.memberCodeTitle {
+  width: 95px; }
+
+.form-group {
+  margin-bottom: 20px; }
+
+.contactAddress {
+  margin-bottom: 12px; }
 
 .login {
-  padding: 80px 0 82px 0;
-  padding-top: 80px; }
+  padding: 80px 0 82px 0; }
   @media screen and (max-width: 992px) {
     .login {
       padding: 40px 0 106px 0; } }
