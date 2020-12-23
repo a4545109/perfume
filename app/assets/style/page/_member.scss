@@ -1,4 +1,51 @@
 
+.memberTitle{
+  line-height: 30px;
+}
+hr{
+  background-color: #000;
+}
+.memberMenu{
+  a:hover{
+    border-bottom: 2px solid #916000;
+  }
+  @include pad(){
+    display: flex;
+    justify-content: center;
+    margin-bottom: 17px;
+    li:nth-child(2){
+      margin: 0 43px;
+    }
+  }
+}
+.modifyContent{
+  label{
+    width: 95px;
+  }
+}
+.passwordText{
+  width: 95px;
+}
+.memberCode,
+.modifyTitle{
+  line-height: 22px;
+}
 .memberArea{
-  min-width: 94px;
+  min-width: 95px;
+}
+.form-row{
+  margin: 0;
+}
+.bonus{
+  font-size: 14px;
+  line-height: 21px;
+}
+.memberCodeTitle{
+  width: 95px;
+}
+.form-group{
+  margin-bottom: 20px;
+}
+.contactAddress{
+  margin-bottom: 12px;
 }

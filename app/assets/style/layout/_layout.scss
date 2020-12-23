@@ -14,16 +14,14 @@ body{
   overflow: hidden;
   white-space:nowrap;
 }
-.nav-link span{
-  margin-right: 3px;
-}
 .navbar-collapse{
   flex-grow: 0;
 }
 .mobileCart{
-  margin-right: 19px;
+  position: relative;
 }
-// footer
-.footer{
-  padding: 20px 0px 22px 0px;
+.cartNum{
+  position: absolute;
+  top: -8px;
+  right: 8px;
 }

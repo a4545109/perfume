@@ -8,14 +8,7 @@ ul{
   margin: 0;
   padding: 0;
 }
-hr{
-  margin: 0;
-  // color: #818A91;
-}
-p{
-  margin: 0;
-}
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,label,p,hr{
   margin: 0;
 }
 a:hover{
@@ -23,7 +16,4 @@ a:hover{
 }
 .form-row > .col, .form-row > [class*="col-"]{
   padding: 0;
-}
-.form-group{
-  margin-bottom: 20px;
 }

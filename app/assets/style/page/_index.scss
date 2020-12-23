@@ -7,14 +7,15 @@
       line-height: 30px;
     }
   }
-}
-.shopNow{
-  width: 78%;
-  padding: 8px 0;
-  @include pad(){
-    width: 100%;
+  .shopNow{
+    width: 78%;
+    @include pad(){
+      width: 100%;
+    }
   }
 }
+
+// introduction
 .introductionContent{
   width: 63%;
   @include pad(){
@@ -27,6 +28,8 @@
 .introductionImg{
   height: 555px;
 }
+
+// info
 .infoImg{
   height: 1080px;
 }
@@ -38,12 +41,13 @@
 }
 .infobtn{
   width: 63%;
-  padding: 18px;
   @include pad(){
     width: 100%;
   }
 }
-.index-product{
+
+// indexProduct
+.indexProduct{
   background-color: #E0E0E0;
 }
 .indexProductImg{

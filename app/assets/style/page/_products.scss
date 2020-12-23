@@ -1,9 +1,3 @@
-.products{
-  padding-top: 80px;
-  @include pad(){
-    padding-top: 40px;
-  }
-}
 .productItem{
   margin-bottom: 58px;
   @include pad(){
@@ -17,5 +11,11 @@
   .product .productsTitle{
     font-size: 20px;
     line-height: 30px;
+  }
+}
+// pagination
+.pagination{
+  a:hover{
+    border-bottom: 2px solid #AC8A46;
   }
 }
