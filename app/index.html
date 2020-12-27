@@ -13,7 +13,7 @@ current: index
         <p class="bannerText fs-6 fs-lg-5 lh-9 mb-4">A perfume is like a piece of clothing, a message, a way of
           presenting oneself a costume that according to the
           person who wears it.</p>
-        <button type="button" class="shopNow btn btn-outline-white rounded-pill fs-7 py-2">Shop now</button>
+        <button type="button" class="shopNow btn btn-outline-white rounded-pill fs-7 py-2"><a href="products.html" class="d-block text-white">Shop now</a></button>
       </div>
     </div>
   </div>
@@ -64,7 +64,7 @@ current: index
   </li>
 
   <!-- info -->
-  <div class="row no-gutters">
+  <li class="row no-gutters">
     <div class="col-12 col-lg-6">
       <div class="infoImg bg-cover" style="background-image: url('assets/images/index5.jpg');"></div>
     </div>
@@ -92,7 +92,7 @@ current: index
       <button type="button" class="infobtn btn btn-outline-dark rounded-pill fs-5 lh-6 py-4">Plan a free online
         training</button>
     </div>
-  </div>
+  </li>
 </ul>
 
 <!-- product -->
@@ -105,7 +105,7 @@ current: index
           <h2 class="font-weight-bold fs-6 lh-9">Poppy & Barley</h2>
           <h3 class="fs-4 lh-6 mb-1 mb-lg-4">Jo Malone</h3>
           <div class="d-flex align-items-center mb-8">
-            <h3 class="fs-4 lh-6 mr-2">NT$1,380</h3>
+            <p class="fs-4 lh-6 mr-2">NT$1,380</p>
             <del class="text-gray-500">NT$1,580</del>
           </div>
         </div>
@@ -115,15 +115,17 @@ current: index
           <img class="indexProductImg w-100 mb-2" src="./assets/images/index7.jpg" alt="">
           <h2 class="font-weight-bold fs-6 lh-9">Body Wash</h2>
           <h3 class="fs-4 lh-6 mb-1 mb-lg-4">Curology</h3>
-          <h3 class="fs-4 lh-6 mb-8">NT$1,580</h3>
+          <p class="fs-4 lh-6 mb-8">NT$1,580</p>
         </div>
       </li>
       <li class="col-12 col-lg-4">
-        <div class="product">
+        <div class="product product-cover">
           <img class="indexProductImg w-100 mb-2" src="./assets/images/index8.jpg" alt="">
+        </div>
+        <div>
           <h2 class="font-weight-bold fs-6 lh-9">Apple Cider Vinegar Capsule</h2>
           <h3 class="fs-4 lh-6 mb-1 mb-lg-4">Tonik</h3>
-          <h3 class="fs-4 lh-6 mb-8">NT$1,580</h3>
+          <p class="fs-4 lh-6 mb-8">NT$1,580</p>
         </div>
       </li>
     </ul>
@@ -152,13 +154,13 @@ current: index
 </div>
 
 <!-- subscribe -->
-<div class="subscribe bg-cover">
+<div class="subscribe bg-cover d-flex align-items-end">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-4">
         <div class="subscribe-Content">
-          <h2 class="fs-8 lh-12 mb-5 text-gray-500">記得<br>訂閱以獲取更多資訊！</h2>
-          <input type="text" class="subscribe-input border border-primary text-gray-500" placeholder="Your email address">
+          <label class="fs-8 lh-12 mb-5 text-gray-500" for="remember">記得<br>訂閱以獲取更多資訊！</label>
+          <input type="text" class="subscribe-input border border-primary text-gray-500" id="remember" placeholder="Your email address">
           <button type="button" class="subscribe-btn border border-primary bg-primary text-white">Subscribe</button>
         </div>
       </div>
