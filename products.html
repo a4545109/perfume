@@ -14,47 +14,49 @@
 
 <body>
   <!-- navbar -->
-  <div class="container">
-    <nav class="navbar navbar-expand-md navbar-light justify-content-between">
-      <h1><a class="logo" href="index.html">香水電商</a></h1>
-      <div class="d-flex align-items-center">
-        <div class="mobileCart">
-          <a class="mr-5 d-flex align-items-center lh-6 text-gray-500 d-block d-md-none" href="#" tabindex="-1"
-            aria-disabled="true">
-            <span class="material-icons">shopping_cart</span>
-            <span class="cartNum badge badge-pill badge-primary">3</span>
-          </a>
+  <div class="fixed-top bg-white">
+    <div class="container">
+      <nav class="navbar navbar-expand-md navbar-light justify-content-between">
+        <h1><a class="logo" href="index.html">香水電商</a></h1>
+        <div class="d-flex align-items-center">
+          <div class="mobileCart">
+            <a class="mr-5 d-flex align-items-center lh-6 text-gray-500 d-block d-md-none" href="#" tabindex="-1"
+              aria-disabled="true">
+              <span class="material-icons">shopping_cart</span>
+              <span class="cartNum badge badge-pill badge-primary">3</span>
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse fs-5" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item mr-4 active">
-            <a class="nav-link  d-flex align-items-center" href="products.html">
-              <span class="material-icons mr-1">store_mall_directory</span>Product
-            </a>
-          </li>
-          <li class="nav-item mr-4">
-            <a class="nav-link  d-flex align-items-center" href="login.html">
-              <span class="material-icons mr-1">person</span>log in
-            </a>
-          </li>
-          <li class="nav-item mr-4">
-            <a class="nav-link  d-flex align-items-center" href="#">
-              <span class="material-icons mr-1">favorite</span>Wishlist
-            </a>
-          </li>
-          <li class="nav-item mr-4">
-            <a class="nav-link  d-flex align-items-center lh-6" href="#" tabindex="-1" aria-disabled="true">
-              <span class="material-icons mr-1">shopping_cart</span>Cart(3)
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        <div class="collapse navbar-collapse fs-5" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item mr-4 active">
+              <a class="nav-link  d-flex align-items-center" href="products.html">
+                <span class="material-icons mr-1">store_mall_directory</span>Product
+              </a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link  d-flex align-items-center" href="login.html">
+                <span class="material-icons mr-1">person</span>log in
+              </a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link  d-flex align-items-center" href="#">
+                <span class="material-icons mr-1">favorite</span>Wishlist
+              </a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link  d-flex align-items-center lh-6" href="#" tabindex="-1" aria-disabled="true">
+                <span class="material-icons mr-1">shopping_cart</span>Cart(3)
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </div>
 
   <!-- menu -->
@@ -74,7 +76,7 @@
 <!-- products -->
 <div class="products container pt-10 pt-md-13">
   <ul class="row">
-    <li class="col-6 col-lg-3">
+    <li class="col-6 col-lg-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="productItem">
         <a href="productDetail.html"><img class="productsImg w-100 of-cover" src="./assets/images/products1.jpg" alt=""></a>
         <h2 class="productsTitle font-weight-bold fs-6 lh-9">Poppy & Barley</h2>
@@ -87,7 +89,7 @@
         <a href="#" data-toggle="modal" data-target="#addCart"><span class="material-icons">shopping_cart</span></a>
       </div>
     </li>
-    <li class="col-6 col-lg-3">
+    <li class="col-6 col-lg-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="productItem">
         <a href="productDetail.html"><img class="productsImg w-100 of-cover" src="./assets/images/index6.jpg" alt=""></a>
         <h2 class="productsTitle font-weight-bold fs-6 lh-9">Poppy & Barley</h2>
@@ -100,7 +102,7 @@
         <a href="#" data-toggle="modal" data-target="#addCart"><span class="material-icons">shopping_cart</span></a>
       </div>
     </li>
-    <li class="col-6 col-lg-3">
+    <li class="col-6 col-lg-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="productItem">
         <a href="productDetail.html"><img class="productsImg w-100 of-cover" src="./assets/images/products4.jpg" alt=""></a>
         <h2 class="productsTitle font-weight-bold fs-6 lh-9">Poppy & Barley</h2>
@@ -113,7 +115,7 @@
         <a href="#" data-toggle="modal" data-target="#addCart"><span class="material-icons">shopping_cart</span></a>
       </div>
     </li>
-    <li class="col-6 col-lg-3">
+    <li class="col-6 col-lg-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="productItem">
         <a href="productDetail.html"><img class="productsImg w-100 of-cover" src="./assets/images/products3.jpg" alt=""></a>
         <h2 class="productsTitle font-weight-bold fs-6 lh-9">Poppy & Barley</h2>
@@ -126,7 +128,7 @@
         <a href="#" data-toggle="modal" data-target="#addCart"><span class="material-icons">shopping_cart</span></a>
       </div>
     </li>
-    <li class="col-6 col-lg-3">
+    <li class="col-6 col-lg-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="productItem">
         <a href="productDetail.html"><img class="productsImg w-100 of-cover" src="./assets/images/products5.jpg" alt=""></a>
         <h2 class="productsTitle font-weight-bold fs-6 lh-9">Poppy & Barley</h2>
@@ -139,7 +141,7 @@
         <a href="#" data-toggle="modal" data-target="#addCart"><span class="material-icons">shopping_cart</span></a>
       </div>
     </li>
-    <li class="col-6 col-lg-3">
+    <li class="col-6 col-lg-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="productItem">
         <a href="productDetail.html"><img class="productsImg w-100 of-cover" src="./assets/images/index4.jpg" alt=""></a>
         <h2 class="productsTitle font-weight-bold fs-6 lh-9">Poppy & Barley</h2>
@@ -152,7 +154,7 @@
         <a href="#" data-toggle="modal" data-target="#addCart"><span class="material-icons">shopping_cart</span></a>
       </div>
     </li>
-    <li class="col-6 col-lg-3">
+    <li class="col-6 col-lg-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="productItem">
         <a href="productDetail.html"><img class="productsImg w-100 of-cover" src="./assets/images/products7.jpg" alt=""></a>
         <h2 class="productsTitle font-weight-bold fs-6 lh-9">Poppy & Barley</h2>
@@ -165,7 +167,7 @@
         <a href="#" data-toggle="modal" data-target="#addCart"><span class="material-icons">shopping_cart</span></a>
       </div>
     </li>
-    <li class="col-6 col-lg-3">
+    <li class="col-6 col-lg-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="productItem">
         <a href="productDetail.html"><img class="productsImg w-100 of-cover" src="./assets/images/products8.jpg" alt=""></a>
         <h2 class="productsTitle font-weight-bold fs-6 lh-9">Poppy & Barley</h2>
@@ -178,7 +180,7 @@
         <a href="#" data-toggle="modal" data-target="#addCart"><span class="material-icons">shopping_cart</span></a>
       </div>
     </li>
-    <li class="col-6 col-lg-3">
+    <li class="col-6 col-lg-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="productItem">
         <a href="productDetail.html"><img class="productsImg w-100 of-cover" src="./assets/images/index3.png" alt=""></a>
         <h2 class="productsTitle font-weight-bold fs-6 lh-9">Poppy & Barley</h2>
@@ -191,7 +193,7 @@
         <a href="#" data-toggle="modal" data-target="#addCart"><span class="material-icons">shopping_cart</span></a>
       </div>
     </li>
-    <li class="col-6 col-lg-3">
+    <li class="col-6 col-lg-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="productItem">
         <a href="productDetail.html"><img class="productsImg w-100 of-cover" src="./assets/images/products10.jpg" alt=""></a>
         <h2 class="productsTitle font-weight-bold fs-6 lh-9">Poppy & Barley</h2>
@@ -204,7 +206,7 @@
         <a href="#" data-toggle="modal" data-target="#addCart"><span class="material-icons">shopping_cart</span></a>
       </div>
     </li>
-    <li class="col-6 col-lg-3">
+    <li class="col-6 col-lg-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="productItem">
         <a href="productDetail.html"><img class="productsImg w-100 of-cover" src="./assets/images/products11.jpg" alt=""></a>
         <h2 class="productsTitle font-weight-bold fs-6 lh-9">Poppy & Barley</h2>
@@ -217,7 +219,7 @@
         <a href="#" data-toggle="modal" data-target="#addCart"><span class="material-icons">shopping_cart</span></a>
       </div>
     </li>
-    <li class="col-6 col-lg-3">
+    <li class="col-6 col-lg-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="productItem">
         <a href="productDetail.html"><img class="productsImg w-100 of-cover" src="./assets/images/products12.jpg" alt=""></a>
         <h2 class="productsTitle font-weight-bold fs-6 lh-9">Poppy & Barley</h2>
@@ -257,27 +259,27 @@
 
 
 
-  <footer class="footer bg-primary py-5">
-    <div class="container d-flex justify-content-between align-items-center">
-      <div class="d-flex align-items-center">
-        <img class="mr-5" src="./assets/images/d’Perfumewhite.png" alt="">
-        <span class="text-white lh-4">© 2020. All Rights Reserved.</span>
+    <footer class="footer bg-primary py-5">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center">
+          <img class="mr-5" src="./assets/images/d’Perfumewhite.png" alt="">
+          <span class="text-white lh-4">© 2020. All Rights Reserved.</span>
+        </div>
+        <ul class="d-none d-md-flex d-md-block fs-5 lh-6">
+          <li class="mr-9">
+            <a class="text-white" href="products.html">Product</a>
+          </li>
+          <li class="mr-9">
+            <a class="text-white" href="#">Blog</a>
+          </li>
+          <li>
+            <a class="text-white" href="#">Contact</a>
+          </li>
+        </ul>
       </div>
-      <ul class="d-none d-md-flex d-md-block fs-5 lh-6">
-        <li class="mr-9">
-          <a class="text-white" href="products.html">Product</a>
-        </li>
-        <li class="mr-9">
-          <a class="text-white" href="#">Blog</a>
-        </li>
-        <li>
-          <a class="text-white" href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- addCartModal -->
+    <!-- addCartModal -->
 <div class="modal fade" id="addCart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -299,17 +301,19 @@
   </div>
 </div>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-  <script src="./assets/js/vendors.js"></script>
-  <script src="./assets/js/all.js"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script src="./assets/js/vendors.js"></script>
+      <script src="./assets/js/all.js"></script>
 </body>
 
 </html>
